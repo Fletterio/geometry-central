@@ -11,6 +11,7 @@ namespace geometrycentral {
 template <typename T>
 using Vector = Eigen::Matrix<T, Eigen::Dynamic, 1>;
 
+
 // Nicer name for sparse matrix
 template <typename T, Eigen::StorageOptions S = Eigen::ColMajor>
 using SparseMatrix = Eigen::SparseMatrix<T, S>;
